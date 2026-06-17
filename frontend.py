@@ -29,4 +29,4 @@ result=model_load.predict(X)
 button=st.button("click here to predict")
 
 if button:
-    st.write(f"### your sem cgpa is {result}")
+    st.write(f"### your sem cgpa is {result:.2f}")
