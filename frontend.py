@@ -25,7 +25,7 @@ else:
     
 model_load=joblib.load("model.pkl")
 
-X=[[age,gender,study_hours,sleep_hours,attendance,prev_sem_cgpa,screen_time]]
+X=[[age,g,study_hours,sleep_hours,attendance,prev_sem_cgpa,screen_time]]
  
 result_array=model_load.predict(X)
 
