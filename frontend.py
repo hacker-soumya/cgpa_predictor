@@ -7,15 +7,15 @@ age=st.slider("Enter your age",19,23)
 
 gender=st.radio("Select your gender",["Male","Female"])
 
-screen_time=st.number_input("Enter your screen time",0,10)
+screen_time=st.number_input("Enter your screen time",0.0,10.0)
 
-study_hours=st.number_input("Enter your study hours",2,10)
+study_hours=st.number_input("Enter your study hours",2.0,10.0)
 
-sleep_hours=st.number_input("Enter your sleep hours",5,8)
+sleep_hours=st.number_input("Enter your sleep hours",5.0,8.0)
 
-attendance=st.number_input("Enter your attendance %",max_value=100)
+attendance=st.number_input("Enter your attendance %",max_value=100.0)
 
-prev_sem_cgpa=st.number_input("Enter your previous sem CGPA",max_value=10)
+prev_sem_cgpa=st.number_input("Enter your previous sem CGPA",max_value=10.0)
 
 
 if(gender=="Male"):
