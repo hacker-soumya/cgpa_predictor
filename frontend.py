@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib
+import joblib,numpy
 st.title("CGPA predictor")
 st.subheader("Enter your details below")
 
