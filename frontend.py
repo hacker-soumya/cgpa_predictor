@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib,numpy
+import joblib
 st.title("CGPA predictor")
 st.subheader("Enter your details below")
 
@@ -23,7 +23,7 @@ if(gender=="Male"):
 else:
     g=0
     
-model_load=joblib.load("model1.pkl")
+model_load=joblib.load("model.pkl")
 
 X=[[age,g,study_hours,sleep_hours,attendance,prev_sem_cgpa,screen_time]]
  
