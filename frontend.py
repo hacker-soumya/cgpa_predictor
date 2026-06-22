@@ -23,7 +23,7 @@ if(gender=="Male"):
 else:
     g=0
     
-model_load=joblib.load("model.pkl")
+model_load=joblib.load("model1.pkl")
 
 X=[[age,g,study_hours,sleep_hours,attendance,prev_sem_cgpa,screen_time]]
  
