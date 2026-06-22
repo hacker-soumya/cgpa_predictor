@@ -1,5 +1,5 @@
 import streamlit as st
-import joblib,numpy
+import joblib
 st.title("CGPA predictor")
 st.subheader("Enter your details below")
 
@@ -13,7 +13,7 @@ study_hours=st.number_input("Enter your study hours",2.0,10.0)
 
 sleep_hours=st.number_input("Enter your sleep hours",5.0,8.0)
 
-attendance=st.number_input("Enter your attendance %",max_value=100.0)
+attendance=st.number_input("Enter your attendance %",50.0,100.0)
 
 prev_sem_cgpa=st.number_input("Enter your previous sem CGPA",6.0,10.0)
 
